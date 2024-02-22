@@ -1,14 +1,10 @@
 import React , {useState} from 'react';
-import PropTypes from 'prop-types';
 
 import icon1 from '../assets/images/svg/icon-wallet-1.svg'
 import icon2 from '../assets/images/svg/icon-wallet-2.svg'
 import icon3 from '../assets/images/svg/icon-wallet-3.svg'
 import icon4 from '../assets/images/svg/icon-wallet-4.svg'
 import icon5 from '../assets/images/svg/icon-wallet-5.svg'
-import icon6 from '../assets/images/svg/icon-wallet-6.svg'
-import icon7 from '../assets/images/svg/icon-wallet-7.svg'
-import icon8 from '../assets/images/svg/icon-wallet-8.svg'
 import { Link } from 'react-router-dom';
 
 Wallet.propTypes = {
@@ -50,27 +46,6 @@ function Wallet(props) {
             img: icon5,
             cate: '',
             title: 'Authereum',
-            text : 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. '
-        },
-        {
-            id: 6,
-            img: icon6,
-            cate: '',
-            title: 'Kaikas',
-            text : 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. '
-        },
-        {
-            id: 7,
-            img: icon7,
-            cate: 'none',
-            title: 'Torus',
-            text : 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. '
-        },
-        {
-            id: 8,
-            img: icon8,
-            cate: '',
-            title: 'Fortmatic',
             text : 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. '
         },
     ])

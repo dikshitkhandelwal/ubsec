@@ -81,7 +81,7 @@ const Header = () => {
                                </div>
 
                                 <div className="header-right">
-                                    <Link to="/wallet" className="tf-button "><span>Connect Wallet</span></Link>
+                                    <Link to="/competitionregistration" className="tf-button "><span>Register for UBSEC HackFest CTF Competition</span></Link>
                                     <span className="user "><svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <mask id="mask0_2981_49321" maskUnits="userSpaceOnUse" x="0" y="11" width="16" height="7">
                                         <path fillRule="evenodd" clipRule="evenodd" d="M0 11.2949H15.1998V18.0009H0V11.2949Z" fill="white"/>

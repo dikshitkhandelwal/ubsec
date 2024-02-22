@@ -36,7 +36,7 @@ function Banner04(props) {
                                                         {idx.heading}
                                                     </h1>
                                                     <p className="sub-heading">{idx.desc}</p>
-                                                    <form action="#">
+                                                    {/* <form action="#">
                                                         <div id="item_category" className="dropdown">
                                                             <Link to="#" className="btn-selector nolink "><div className="icon"><i className="fab fa-ethereum"></i></div>ETH</Link>
                                                         </div>
@@ -44,16 +44,15 @@ function Banner04(props) {
                                                             <input type="text" placeholder="Search keyword..." required="" />
                                                         <Link to='' className="btn-search"><i className="icon-fl-search-filled"></i></Link>
                                                         </div>
-                                                    </form>
-                                                    <div className="btn-slider ">
+                                                    </form> */}
+                                                    {/* <div className="btn-slider ">
                                                         <Link to="/explore-v1" className="tf-button style-2">Explore <i className="fas fa-long-arrow-right"></i></Link>
-                                                    </div>
+                                                    </div> */}
                                                 </div>
                                                 <div className="image">
                                                     <div className="ani4"><img src={idx.img} alt="Binasea" /></div>
                                                 
                                                     <div className="card-countdown">
-                                                        <h4>Auction Ending In:</h4>
                                                         <span className="js-countdown countdown style-3" data-timer="55555" data-labels=" ,  h , min , s "></span>
                                                     </div>
                                                 </div>
