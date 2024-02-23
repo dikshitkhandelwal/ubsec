@@ -2,8 +2,8 @@ import React , { useState ,useEffect } from 'react';
 import './styles.scss';
 import { Link } from 'react-router-dom';
 
-import logo from '../../assets/images/logo/logo.png';
-import logodark from '../../assets/images/logo/logo_dark.png';
+import logo from '../../assets/images/logo/PlainLogo.png';
+import logodark from '../../assets/images/logo/PlainLogo.png';
 
 import './styles.scss'
 
@@ -116,18 +116,18 @@ function Footer(props) {
                         <div className="col-xl-4 col-lg-3 col-md-3">
                             <div className="widget widget-infor">
                                 <div className="logo">
-                                    <img id="logo_footer" className='logo-dark' src={logodark} alt="Binasea" />
-                                    <img id="logo_footer" className='logo-light' src={logo} alt="Binasea" />
+                                    <img className='logo-dark' src={logodark} alt="ubsec" style={{ maxWidth: '50px', height: 'auto' }} />
+                                    <img className='logo-light' src={logo} alt="ubsec" style={{ maxWidth: '50px', height: 'auto' }} />
                                 </div>
-                                <p className="content">UBSEC is to establish a platform for students to explore the field of cybersecurity, foster a community around technology and security, as well as equip students with the resources and networking opportunities to excel at the university and beyond.</p>
-                                <ul className="social-item">
+                                <p className="content">UBSEC is a platform for students to explore the field of cybersecurity, foster a community around technology and security, as well as equip students with the resources and networking opportunities to excel at the university and beyond.</p>
+                                {/* <ul className="social-item">
                                     <li><Link to="#"><i className="fab fa-twitter"></i></Link></li>
                                     <li><Link to="#"><i className="fab fa-facebook"></i></Link></li>
                                     <li><Link to="#"><i className="fab fa-telegram-plane"></i></Link></li>
                                     <li><Link to="#"><i className="fab fa-youtube"></i></Link></li>
                                     <li><Link to="#"><i className="icon-fl-tik-tok-2"></i></Link></li>
                                     <li><Link to="#"><i className="icon-fl-vt"></i></Link></li>
-                                </ul>
+                                </ul> */}
                                 <p className="copy-right">Copyright © 2024 UBSEC. All Rights Reserved.
 
                                 </p>
@@ -135,13 +135,13 @@ function Footer(props) {
                         </div>
                         <div className="col-xl-5 col-lg-6 col-md-5">
                             <div className="widget widget-menu">
-                                <div className="menu menu-2">
+                                {/* <div className="menu menu-2">
                                     <h6 className="widget-title">Stats</h6>
                                     <ul >
                                         <li><Link to="/login">Login</Link></li>
                                         <li><Link to="/create">Create</Link></li>
                                     </ul>
-                                </div>
+                                </div> */}
                                 <div className="menu menu-3">
                                     <h6 className="widget-title">Resoure</h6>
                                     <ul >

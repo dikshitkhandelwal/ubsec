@@ -6,11 +6,6 @@ const menus = [
     },
     {
         id: 2,
-        name: 'Events',
-        links: '/create',
-    },
-    {
-        id: 3,
         name: 'Discord Link',
         links: 'https://discord.gg/gCSMYVVESs',
     },
@@ -18,6 +13,12 @@ const menus = [
     {
         id: 4,
         name: 'UBLinked',
+        links: '/contact',
+    },
+
+    {
+        id: 4,
+        name: 'About Us',
         links: '/contact',
     },
 

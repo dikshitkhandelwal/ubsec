@@ -79,7 +79,6 @@ function Wallet(props) {
                         <div className="col-md-12">
                             <div className="tf-heading style-5">
                                 <h4 className="heading">Meet Eboard</h4>
-                                {/* <p className="sub-heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati dignissimos quae quo ad iste ipsum officiis deleniti asperiores sit. </p> */}
                             </div>
                         </div>
                         {
@@ -89,14 +88,16 @@ function Wallet(props) {
                                         <div className="icon">
                                             <img src={idx.img} alt="Binasea" />
                                         </div>
-                                        <h6 className="title"><Link to="#">{idx.title}</Link></h6>
+                                        <h6 className="title"><Link to="https://www.dikshitkhandelwal.com">{idx.title}</Link></h6>
                                         <p className="content">{idx.text}</p>
                                         <p className="content">{idx.text2}</p>
-                                        <ul className="social-item">
-                                            <li><Link to="#"><i className="fab fa-youtube"></i></Link></li>
-                                            <li><Link to="#"><i className="icon-fl-tik-tok-2"></i></Link></li>
-                                            <li><Link to="#"><i className="icon-fl-vt"></i></Link></li>
-                                        </ul>
+
+                                        <div className="widget widget-infor">
+                                            <ul className="social-item">
+                                                <li><Link to="#"><i className="fab fa-linkedin"></i></Link></li>
+                                                <li><Link to="#"><i className="fab fa-linkedin"></i></Link></li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             ))

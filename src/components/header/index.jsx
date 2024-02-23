@@ -2,11 +2,10 @@ import React , { useState , useEffect } from 'react';
 
 import { Link , NavLink } from 'react-router-dom';
 import menus from '../../pages/menu';
-import { Dropdown } from 'react-bootstrap';
 
 import './styles.scss';
-import logo from '../../assets/images/logo/logo.png';
-import logodark from '../../assets/images/logo/logo_dark.png';
+import logo from '../../assets/images/logo/PlainLogo.png';
+import logodark from '../../assets/images/logo/PlainLogo.png';
 
 import DarkMode from './DarkMode';
 
@@ -47,12 +46,11 @@ const Header = () => {
                                 <div id="site-logo" className="clearfix">
                                     <div id="site-logo-inner">
                                         <Link to="/" rel="home" className="main-logo">
-                                            <img id="logo_header" className='logo-dark' src={logodark} alt="Binasea" />
-                                            <img id="logo_header" className='logo-light' src={logo} alt="Binasea" />
+                                            <img className='logo-dark' src={logodark} alt="ubsec" style={{ maxWidth: '80px', height: 'auto' }} />
+                                            <img className='logo-light' src={logo} alt="ubsec" style={{ maxWidth: '80px', height: 'auto' }} />
                                         </Link>
                                     </div>
                                 </div>
-                                
                                <div className="header-center">
                                 <nav id="main-nav" className={`main-nav ${menuActive ? 'active' : ''}`}>
                                     <ul id="menu-primary-menu" className="menu">
@@ -82,7 +80,7 @@ const Header = () => {
 
                                 <div className="header-right">
                                     {/* <Link to="/competitionregistration" className="tf-button "><span>Register for UBSEC HackFest CTF Competition</span></Link> */}
-                                    <span className="user "><svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    {/* <span className="user "><svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <mask id="mask0_2981_49321" maskUnits="userSpaceOnUse" x="0" y="11" width="16" height="7">
                                         <path fillRule="evenodd" clipRule="evenodd" d="M0 11.2949H15.1998V18.0009H0V11.2949Z" fill="white"/>
                                         </mask>
@@ -98,7 +96,7 @@ const Header = () => {
                                         <path fillRule="evenodd" clipRule="evenodd" d="M17.9138 15.5473C17.6104 15.5473 17.3251 15.3725 17.212 15.0901C17.0649 14.7245 17.2601 14.3146 17.6475 14.1767C18.4984 13.8726 18.4984 13.5013 18.4984 13.3427C18.4984 12.8071 17.8267 12.4406 16.5023 12.2545C16.0918 12.196 15.8085 11.8352 15.8696 11.4488C15.9317 11.0616 16.3211 10.8018 16.7235 10.8519C19.4323 11.2344 19.9999 12.4179 19.9999 13.3427C19.9999 14.0312 19.6846 14.9635 18.18 15.501C18.0929 15.5321 18.0028 15.5473 17.9138 15.5473Z" fill="#B9B8BB"/>
                                         </g>
                                         </svg>
-                                        </span>
+                                        </span> */}
                                     <DarkMode />
                                 </div>  
 
