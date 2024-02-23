@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import PageTitle from '../components/pagetitle/PageTitle';
 
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
@@ -17,11 +16,11 @@ import ico3 from '../assets/images/icon/ethe.svg'
 import avt from '../assets/images/author/author1.png'
 
 
-Hackfest24Info.propTypes = {
+HackFest24Info.propTypes = {
     
 };
 
-function Hackfest24Info(props) {
+function HackFest24Info(props) {
     return (
         <div>
             <PageTitle none='none'  title='Create' />
@@ -396,4 +395,4 @@ function Hackfest24Info(props) {
     );
 }
 
-export default Hackfest24Info;
+export default HackFest24Info;

@@ -1,7 +1,3 @@
-
-
-import img1 from '../images/slider/slider-1.jpg'
-import img2 from '../images/slider/slider-5.png'
 import img3 from '../images/HackFest.png'
 
 const dataBanner = [

@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import PageTitle from '../components/pagetitle/PageTitle';
 
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
@@ -15,7 +14,6 @@ import ico1 from '../assets/images/icon/rain1.svg'
 import ico2 from '../assets/images/icon/rain2.svg'
 import ico3 from '../assets/images/icon/ethe.svg'
 import avt from '../assets/images/author/author1.png'
-import img3 from '../assets/images/image2.webp'
 
 
 

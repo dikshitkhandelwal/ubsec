@@ -1,8 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
-
-import img from '../../assets/images/banner/thumb-banner.png'
 import img1 from '../../assets/images/image2.webp'
 
 
@@ -50,8 +46,8 @@ function Create4(props) {
                                 </ul>
                                 <br />
                                 <div className="group-btn wow fadeInUp">
-                                    <a href="" className="tf-button style-2 btn-1">Join Discord</a>
-                                    <a href="" className="tf-button style-3 btn-2">Join UBLinked</a>
+                                    <a href="https://discord.gg/gCSMYVVESs" className="tf-button style-2 btn-1">Join Discord</a>
+                                    <a href="https://buffalo.campuslabs.com/engage/organization/ubsec" className="tf-button style-3 btn-2">Join UBLinked</a>
                                 </div>
                                 <div className="shape ani4">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="176" height="143" viewBox="0 0 176 143" fill="none">
