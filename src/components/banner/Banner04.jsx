@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
 import { Navigation, Scrollbar, A11y   } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -45,9 +44,9 @@ function Banner04(props) {
                                                         <Link to='' className="btn-search"><i className="icon-fl-search-filled"></i></Link>
                                                         </div>
                                                     </form> */}
-                                                    {/* <div className="btn-slider ">
+                                                    <div className="btn-slider ">
                                                         <Link to="/explore-v1" className="tf-button style-2">Explore <i className="fas fa-long-arrow-right"></i></Link>
-                                                    </div> */}
+                                                    </div>
                                                 </div>
                                                 <div className="image">
                                                     <div className="ani4"><img src={idx.img} alt="Binasea" /></div>
@@ -62,8 +61,6 @@ function Banner04(props) {
                             ))
                         }
                     </Swiper>
-
-                            
                         </div>
                     </div>
                 </div>

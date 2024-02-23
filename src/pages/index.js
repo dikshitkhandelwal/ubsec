@@ -1,4 +1,3 @@
-import Collection from "./Collection";
 import Contact from "./Contact";
 import Create from "./Create";
 import Faqs from "./Faqs";
@@ -13,7 +12,6 @@ import CompetitionRegistrationForm from "./CompetitionRegistrationForm";
 
 const routes = [
   { path: '/', component: <Home04 />},
-  { path: '/collection', component: <Collection />},
   { path: '/help-center', component: <HelpCenter />},
   { path: '/faqs', component: <Faqs />},
   { path: '/wallet', component: <Wallet />},

@@ -42,8 +42,6 @@ const dataBanner2 = [
         desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.',
         img: img5,
     },
-    
-
 ]
 
 export default dataBanner2;
