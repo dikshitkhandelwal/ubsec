@@ -59,7 +59,7 @@ function Footer(props) {
                         </div>
                         <div className="col-xl-5 col-lg-6 col-md-5">
                             <div className="widget widget-menu">
-                                <div className="menu menu-3">
+                                <div className="menu menu-1">
                                     <h6 className="widget-title">Resoures</h6>
                                     <ul >
                                         <li><Link to="/about">About Us</Link></li>
@@ -67,12 +67,17 @@ function Footer(props) {
                                         <li><Link to="/contact">Contact</Link></li>
                                     </ul>
                                 </div>
-                                <div className="menu menu-4">
+                                <div className="menu menu-2">
                                     <h6 className="widget-title">Important Links</h6>
                                     <ul >
                                         <li><Link to="/dashboard">Discord</Link></li>
                                         <li><Link to="/dashboard">UBLinked</Link></li>
                                     </ul>
+                                </div>
+
+                                <div className="menu menu-3">
+                                    <h6 className="widget-title">Email Us</h6>
+                                    <p>ubsec-club@buffalo.edu</p>
                                 </div>
                             </div>
                         </div>

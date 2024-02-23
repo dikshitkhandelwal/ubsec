@@ -1,16 +1,14 @@
-import Contact from "./Contact";
 import Create from "./Create";
 import Home04 from "./Home04";
-import Team from "./Wallet";
+import Eboard from "./Eboard";
 import HackFest24Info from "./HackFest";
 
 
 
 const routes = [
   { path: '/', component: <Home04 />},
-  { path: '/wallet', component: <Team />},
+  { path: '/eboard', component: <Eboard />},
   { path: '/create', component: <Create />},
-  { path: '/contact', component: <Contact />},
   { path: '/HackFest24Info', component: <HackFest24Info />},
 ]
 

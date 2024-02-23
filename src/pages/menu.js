@@ -19,28 +19,12 @@ const menus = [
     {
         id: 4,
         name: 'About Us',
-        links: '/contact',
+        links: 'https://buffalo.campuslabs.com/engage/organization/ubsec',
     },
-
-    {
-        id: 5,
-        name: 'Contact',
-        links: '/contact',
-    },
-    // {
-    //     id: 7,
-    //     name: 'Sign Up',
-    //     links: '/signup'
-    // },
-    // {
-    //     id: 6,
-    //     name: 'Login',
-    //     links: '/login'
-    // },
     {
         id: 6,
         name: 'Eboard',
-        links: '/wallet'
+        links: '/eboard'
     },
 ]
 

@@ -7,11 +7,11 @@ import icon4 from '../assets/images/svg/icon-wallet-4.svg'
 import icon5 from '../assets/images/svg/icon-wallet-5.svg'
 import { Link } from 'react-router-dom';
 
-Wallet.propTypes = {
+Eboard.propTypes = {
     
 };
 
-function Wallet(props) {
+function Eboard(props) {
     const [dataWallet] = useState([
         {
             id: 1,
@@ -57,21 +57,6 @@ function Wallet(props) {
     ])
     return (
         <div>
-
-            <section className="tf-page-title">    
-                <div className="tf-container">
-                    <div className="row">
-                        <div className="col-md-12">
-
-                            <ul className="breadcrumbs">
-                                <li><Link to="#">Pages</Link></li>
-                                <li>Eboard</li>
-                            </ul>
-                   
-                        </div>
-                    </div>
-                </div>                    
-            </section>
                 
             <section className="tf-connect-wallet">
                 <div className="tf-container">
@@ -110,4 +95,4 @@ function Wallet(props) {
     );
 }
 
-export default Wallet;
+export default Eboard;
