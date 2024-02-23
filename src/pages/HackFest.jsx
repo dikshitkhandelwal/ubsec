@@ -1,6 +1,4 @@
 import React from 'react';
-import PageTitle from '../components/pagetitle/PageTitle';
-
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import { Link } from 'react-router-dom';
 import icon1 from '../assets/images/svg/metamask.svg'
@@ -23,7 +21,6 @@ HackFest24Info.propTypes = {
 function HackFest24Info(props) {
     return (
         <div>
-            <PageTitle none='none'  title='Create' />
 
             <section className="tf-add-nft">
                 <div className="tf-container">

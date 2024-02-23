@@ -1,5 +1,4 @@
 import React from 'react';
-import PageTitle from '../components/pagetitle/PageTitle';
 
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import { Link } from 'react-router-dom';
@@ -24,7 +23,6 @@ Create.propTypes = {
 function Create(props) {
     return (
         <div>
-            <PageTitle none='none'  title='Create' />
 
             <section className="tf-add-nft">
                 <div className="tf-container">
