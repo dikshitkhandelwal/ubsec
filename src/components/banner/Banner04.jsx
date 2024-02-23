@@ -19,7 +19,7 @@ function Banner04({ data }) {
                                     <h1 className="heading">{item.heading}</h1>
                                     <p className="sub-heading">{item.desc}</p>
                                     <div className="btn-slider">
-                                        <Link to="/explore-v1" className="tf-button style-2">
+                                        <Link to="/competitionregistration" className="tf-button style-2">
                                             Register <i className="fas fa-long-arrow-right"></i>
                                         </Link>
                                         <Link to="/hackfest24info" className="tf-button style-2">

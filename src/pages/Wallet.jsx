@@ -95,7 +95,6 @@ function Wallet(props) {
                                         <div className="widget widget-infor">
                                             <ul className="social-item">
                                                 <li><Link to="#"><i className="fab fa-linkedin"></i></Link></li>
-                                                <li><Link to="#"><i className="fab fa-linkedin"></i></Link></li>
                                             </ul>
                                         </div>
                                     </div>

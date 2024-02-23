@@ -6,9 +6,7 @@ import Home04 from "./Home04";
 import Login from "./Login";
 import SignUp from "./SignUp";
 import Team from "./Wallet";
-import CompetitionRegistrationForm from "./CompetitionRegistrationForm";
 import Hackfest24Info from "./HackFest24Info";
-import HackFestRegister from "./HackFestRegister";
 
 
 const routes = [
@@ -20,9 +18,7 @@ const routes = [
   { path: '/signup', component: <SignUp />},
   { path: '/create', component: <Create />},
   { path: '/contact', component: <Contact />},
-  { path: '/competitionregistration', component: <CompetitionRegistrationForm />},
   { path: '/hackfest24info', component: <Hackfest24Info />},
-  {path: '/hackfestregister', component: <HackFestRegister />}
 
 
 
