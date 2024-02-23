@@ -1,0 +1,41 @@
+name: Deploy React App to FTP Server
+
+# This workflow is triggered on pushes to the repository.
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Check out    a the repository code
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      # Set up Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '18.17.1'
+
+      # Install npm dependencies with the --legacy-peer-deps option
+      - name: Install Dependencies
+        run: npm install --legacy-peer-deps
+
+      # Build the React application
+      - name: Build React App
+        run: npm run build
+
+      # Deploy to the FTP server
+      - name: Deploy to FTP Server
+        uses: SamKirkland/FTP-Deploy-Action@4.1.0
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          port: ${{ secrets.FTP_PORT }}
+          local-dir: build/
+          server-dir: /ubsec.org/
