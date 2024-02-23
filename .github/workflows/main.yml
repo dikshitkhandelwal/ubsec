@@ -21,13 +21,13 @@ jobs:
         with:
           node-version: '18.17.1'
 
-      # Install npm dependencies with the --legacy-peer-deps option
+      # Install npm dependencies with the --legacy-peer-deps option to avoid peer dependency conflicts
       - name: Install Dependencies
         run: npm install --legacy-peer-deps
 
-      # Update the caniuse-lite database
-      - name: Update caniuse-lite database
-        run: npx browserslist@latest --update-db
+      # Update the Browserslist Database
+      - name: Update Browserslist Database
+        run: npx update-browserslist-db@latest
 
       # Build the React application
       - name: Build React App
