@@ -11,29 +11,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Check out the repository code
       - name: Checkout Repository
         uses: actions/checkout@v2
 
-      # Set up Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
           node-version: '18.17.1'
 
-      # Install npm dependencies with the --legacy-peer-deps option to avoid peer dependency conflicts
       - name: Install Dependencies
         run: npm install --legacy-peer-deps
 
-      # Update the Browserslist Database
-      - name: Update Browserslist Database
-        run: npx update-browserslist-db@latest
+      - name: Update caniuse-lite
+        run: npm update caniuse-lite
 
-      # Build the React application
       - name: Build React App
         run: npm run build
 
-      # Deploy to the FTP server
       - name: Deploy to FTP Server
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
         with:
