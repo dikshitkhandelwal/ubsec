@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Check out    a the repository code
+      # Check out the repository code
       - name: Checkout Repository
         uses: actions/checkout@v2
 
@@ -24,6 +24,10 @@ jobs:
       # Install npm dependencies with the --legacy-peer-deps option
       - name: Install Dependencies
         run: npm install --legacy-peer-deps
+
+      # Update the caniuse-lite database
+      - name: Update caniuse-lite database
+        run: npx browserslist@latest --update-db
 
       # Build the React application
       - name: Build React App
