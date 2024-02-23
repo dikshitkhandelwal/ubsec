@@ -45,7 +45,7 @@ function Banner04(props) {
                                                         </div>
                                                     </form> */}
                                                     <div className="btn-slider ">
-                                                        <Link to="/explore-v1" className="tf-button style-2">Explore <i className="fas fa-long-arrow-right"></i></Link>
+                                                        <Link to="/explore-v1" className="tf-button style-2">Register <i className="fas fa-long-arrow-right"></i></Link>
                                                     </div>
                                                 </div>
                                                 <div className="image">

@@ -119,7 +119,7 @@ function Footer(props) {
                                     <img id="logo_footer" className='logo-dark' src={logodark} alt="Binasea" />
                                     <img id="logo_footer" className='logo-light' src={logo} alt="Binasea" />
                                 </div>
-                                <p className="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+                                <p className="content">UBSEC is to establish a platform for students to explore the field of cybersecurity, foster a community around technology and security, as well as equip students with the resources and networking opportunities to excel at the university and beyond.</p>
                                 <ul className="social-item">
                                     <li><Link to="#"><i className="fab fa-twitter"></i></Link></li>
                                     <li><Link to="#"><i className="fab fa-facebook"></i></Link></li>
@@ -128,25 +128,16 @@ function Footer(props) {
                                     <li><Link to="#"><i className="icon-fl-tik-tok-2"></i></Link></li>
                                     <li><Link to="#"><i className="icon-fl-vt"></i></Link></li>
                                 </ul>
-                                <p className="copy-right">Copyright © 2022 Themesflat. All Rights Reserved.
+                                <p className="copy-right">Copyright © 2024 UBSEC. All Rights Reserved.
 
                                 </p>
                             </div>
                         </div>
                         <div className="col-xl-5 col-lg-6 col-md-5">
                             <div className="widget widget-menu">
-                                <div className="menu menu-1">
-                                    <h6 className="widget-title">Maketplace</h6>
-                                    <ul >
-                                        <li><Link to="/explore-v1">Explore</Link></li>
-                                        <li><Link to="/item-details-v1">Item Detail</Link></li>
-                                        <li><Link to="/live-auctions-v1">Live Auditon</Link></li>
-                                    </ul>
-                                </div>
                                 <div className="menu menu-2">
                                     <h6 className="widget-title">Stats</h6>
                                     <ul >
-                                        <li><Link to="/ranking">Ranking</Link></li>
                                         <li><Link to="/login">Login</Link></li>
                                         <li><Link to="/create">Create</Link></li>
                                     </ul>
@@ -154,7 +145,6 @@ function Footer(props) {
                                 <div className="menu menu-3">
                                     <h6 className="widget-title">Resoure</h6>
                                     <ul >
-                                        <li><Link to="/blog-v1">Blogs</Link></li>
                                         <li><Link to="/help-center">Help and Center</Link></li>
                                         <li><Link to="/faqs">FaQs</Link></li>
                                     </ul>

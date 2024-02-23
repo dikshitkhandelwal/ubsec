@@ -13,16 +13,8 @@ function Home04(props) {
             <div id="page">
                 <Banner04 data={dataBanner} />
 
-                {/* <TopSeller4 data={dataSeller} /> */}
+                {/* <Create4 /> */}
 
-                {/* <LiveAuction4 data={dataLiveaution} /> */}
-
-
-                {/* <Collection04 data={dataCollection} /> */}
-
-                <Create4 />
-
-                {/* <HotPick4 data={dataHotpick} /> */}
             </div>
         </div>
     );

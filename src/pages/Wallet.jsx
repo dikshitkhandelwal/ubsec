@@ -17,36 +17,42 @@ function Wallet(props) {
             id: 1,
             img: icon1,
             cate: '',
-            title: 'Meta Mask',
-            text : 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. '
+            title: 'Dikshit Khandelwal',
+            text : 'President',
+            text2 : 'Major: Computer Science',
+            linkedInUrl: 'https://www.linkedin.com/in/dikshitkhandelwal/'
         },
         {
             id: 2,
             img: icon2,
             cate: 'none',
-            title: 'Bitski',
-            text : 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. '
+            title: 'Austin Chen',
+            text : 'Vice President',
+            text2 : 'Major: ITM'
         },
         {
             id: 3,
             img: icon3,
             cate: '',
-            title: 'Wallet Connect',
-            text : 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. '
+            title: 'Jonathan Pestinger',
+            text : 'Secretary',
+            text2 : 'Major: ITM'
         },
         {
             id: 4,
             img: icon4,
             cate: 'none',
-            title: 'Coin Base',
-            text : 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. '
+            title: 'Steffi',
+            text : 'Treasurer',
+            text2 : 'Major: ITM'
         },
         {
             id: 5,
             img: icon5,
             cate: '',
-            title: 'Authereum',
-            text : 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. '
+            title: 'Lauren Moore',
+            text : 'Event Coordinator',
+            text2 : 'Major: ITM'
         },
     ])
     return (
@@ -59,7 +65,7 @@ function Wallet(props) {
 
                             <ul className="breadcrumbs">
                                 <li><Link to="#">Pages</Link></li>
-                                <li>Wallet</li>
+                                <li>Eboard</li>
                             </ul>
                    
                         </div>
@@ -72,8 +78,8 @@ function Wallet(props) {
                     <div className="row justify-content-center">
                         <div className="col-md-12">
                             <div className="tf-heading style-5">
-                                <h4 className="heading">Connect Your Wallet</h4>
-                                <p className="sub-heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati dignissimos quae quo ad iste ipsum officiis deleniti asperiores sit. </p>
+                                <h4 className="heading">Meet Eboard</h4>
+                                {/* <p className="sub-heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati dignissimos quae quo ad iste ipsum officiis deleniti asperiores sit. </p> */}
                             </div>
                         </div>
                         {
@@ -82,10 +88,15 @@ function Wallet(props) {
                                     <div className="tf-wallet">
                                         <div className="icon">
                                             <img src={idx.img} alt="Binasea" />
-                                            <span className={`label ${idx.cate}`}>BETA</span>
                                         </div>
                                         <h6 className="title"><Link to="#">{idx.title}</Link></h6>
                                         <p className="content">{idx.text}</p>
+                                        <p className="content">{idx.text2}</p>
+                                        <ul className="social-item">
+                                            <li><Link to="#"><i className="fab fa-youtube"></i></Link></li>
+                                            <li><Link to="#"><i className="icon-fl-tik-tok-2"></i></Link></li>
+                                            <li><Link to="#"><i className="icon-fl-vt"></i></Link></li>
+                                        </ul>
                                     </div>
                                 </div>
                             ))

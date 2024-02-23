@@ -5,12 +5,24 @@ const menus = [
         links: '/',
     },
     {
-        id: 5,
-        name: 'Create',
+        id: 2,
+        name: 'Events',
         links: '/create',
     },
     {
-        id: 7,
+        id: 3,
+        name: 'Discord Link',
+        links: 'https://discord.gg/gCSMYVVESs',
+    },
+
+    {
+        id: 4,
+        name: 'UBLinked',
+        links: '/contact',
+    },
+
+    {
+        id: 5,
         name: 'Contact',
         links: '/contact',
     },
@@ -25,20 +37,10 @@ const menus = [
     //     links: '/login'
     // },
     {
-        id: 5,
-        name: 'Connect Wallet',
+        id: 6,
+        name: 'Eboard',
         links: '/wallet'
     },
-    {
-        id: 4,
-        name: 'FAQ',
-        links: '/faqs'
-    },
-    {
-        id: 3,
-        name: 'Help Center',
-        links: '/help-center'
-    },  
 ]
 
 export default menus;
