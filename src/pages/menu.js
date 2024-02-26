@@ -11,18 +11,18 @@ const menus = [
     },
 
     {
-        id: 4,
+        id: 3,
         name: 'UBLinked',
-        links: '/contact',
+        links: '/https://buffalo.campuslabs.com/engage/organization/ubsec',
     },
 
     {
         id: 4,
         name: 'About Us',
-        links: 'https://buffalo.campuslabs.com/engage/organization/ubsec',
+        links: '',
     },
     {
-        id: 6,
+        id: 5,
         name: 'Eboard',
         links: '/eboard'
     },
