@@ -9,31 +9,25 @@ const dataCreate = [
     {
         id: 1,
         img: img1,
-        heading: 'Dikshit Khandelwal',
+        heading: 'Set up your wallet',
         text: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque'
     },
     {
         id: 2,
         img: img2,
-        heading: 'Austin Chen',
+        heading: 'Create Your collection',
         text: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque'
     },
     {
         id: 3,
         img: img3,
-        heading: 'Jon Pestinger',
+        heading: 'Add Your NFTs',
         text: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque'
     },
     {
         id: 4,
         img: img4,
-        heading: 'Steffi',
-        text: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque'
-    },
-    {
-        id: 5,
-        img: img4,
-        heading: 'Lauren Moore',
+        heading: 'List them for sale',
         text: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque'
     },
 

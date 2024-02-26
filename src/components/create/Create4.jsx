@@ -1,6 +1,8 @@
 import React from 'react';
-import img1 from '../../assets/images/image2.webp'
+import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
+import img from '../../assets/images/banner/thumb-banner.png'
 
 Create4.propTypes = {
     
@@ -12,7 +14,7 @@ function Create4(props) {
                 <div className="tf-container">
                     <div className="row vertical-middle">
                         <div className="col-md-6">
-                            <div className="thumb">
+                            <div className="thumb-banner">
                                 <div className="shape1 ani4">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="255" viewBox="0 0 20 255" fill="none">
                                         <path d="M1.04052 17.3472L10.0151 0C11.2529 2.21454 18.6826 16.7979 18.9896 17.3472C19.9181 19.0082 21.2692 25.3321 17.4423 29.8963C13.7287 34.3254 8.15831 36.1708 2.89733 30.2654C-1.18999 25.6774 -0.0941967 19.8078 1.04052 17.3472Z" fill="#3749E9"/>
@@ -21,8 +23,8 @@ function Create4(props) {
                                         <line y1="-1" x2="152" y2="-1" transform="matrix(4.37114e-08 -1 -1 -4.37114e-08 9 205)" stroke="#3749E9" strokeWidth="2"/>
                                         </svg>
                                 </div>
-                                <div className="thump" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                                    <img src={img1} alt="" style={{ width: '100%', height: 'auto', objectFit: 'cover' }} />
+                                <div className="thumb">
+                                    <img src={img} alt="images" />
                                 </div>
                                 <div className="shape2 ani5">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="48" height="272" viewBox="0 0 48 272" fill="none">
@@ -36,18 +38,16 @@ function Create4(props) {
                         </div>
                         <div className="col-md-6">
                             <div className="content-banner">
-                                <h2 className="wow fadeInUp">Explore Cybersecurity with the UBSEC</h2>
-                                <ul>
-                                    <li style={{ marginLeft: '20px' }}>• Career Fairs and Recruiter Events</li>
-                                    <li style={{ marginLeft: '20px' }}>• Resume and Interviewing Workshops</li>
-                                    <li style={{ marginLeft: '20px' }}>• Interactive Games and Quizzes (Kahoot!)</li>
-                                    <li style={{ marginLeft: '20px' }}>• Guest Speaker Sessions</li>
-                                    <li style={{ marginLeft: '20px' }}>• Competition Participation</li>
-                                </ul>
-                                <br />
+                                <div className="company "><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                                    <circle cx="20" cy="20" r="20" fill="#3749E9"/>
+                                    <path d="M12.8814 20.2451L20.4834 8C21.5319 9.5632 27.8252 19.8573 28.0853 20.2451C28.8718 21.4176 30.0163 25.8815 26.7747 29.1033C23.629 32.2297 18.9106 33.5323 14.4542 29.3638C10.992 26.1252 11.9202 21.982 12.8814 20.2451Z" fill="white"/>
+                                    </svg> cesea
+                                </div>
+                                <h2 className="wow fadeInUp">Create and Sell nFT with Cesea</h2>
+                                <p className="wow fadeInUp">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel</p>
                                 <div className="group-btn wow fadeInUp">
-                                    <a href="https://discord.gg/gCSMYVVESs" className="tf-button style-2 btn-1">Join Discord</a>
-                                    <a href="https://buffalo.campuslabs.com/engage/organization/ubsec" className="tf-button style-3 btn-2">Join UBLinked</a>
+                                    <Link to="/create" className="tf-button style-2 btn-1">Create Item</Link>
+                                    <Link to="/item-details-v1" className="tf-button style-3 btn-2">Sell Item</Link>
                                 </div>
                                 <div className="shape ani4">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="176" height="143" viewBox="0 0 176 143" fill="none">

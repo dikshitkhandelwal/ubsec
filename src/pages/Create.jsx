@@ -1,4 +1,6 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+import PageTitle from '../components/pagetitle/PageTitle';
 
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import { Link } from 'react-router-dom';
@@ -15,7 +17,6 @@ import ico3 from '../assets/images/icon/ethe.svg'
 import avt from '../assets/images/author/author1.png'
 
 
-
 Create.propTypes = {
     
 };
@@ -23,6 +24,7 @@ Create.propTypes = {
 function Create(props) {
     return (
         <div>
+            <PageTitle none='none'  title='Create' />
 
             <section className="tf-add-nft">
                 <div className="tf-container">
