@@ -73,7 +73,6 @@ function Blog02(props) {
                                 }
                                
                                 <div className="load-more style-2">
-                                    <a className="tf-button loadmore" href="#">Load more</a>
                                 </div>
                             </div>                        
                         </div>  

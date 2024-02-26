@@ -1,4 +1,3 @@
-import React , {useState} from 'react';
 
 
 import LiveAuction4 from '../components/liveautions/LiveAuction4';
@@ -13,41 +12,6 @@ LiveAutions02.propTypes = {
 };
 
 function LiveAutions02(props) {
-    const [modalShow, setModalShow] = useState(false);
-
-
-    const [dataTab] = useState([
-        {
-            id: 1,
-            title: '3D MODEL',
-        },
-        {
-            id: 2,
-            title: 'ANIME/MANGA',
-        },
-        {
-            id: 3,
-            title: 'CYBER PUNK',
-        },
-        {
-            id: 4,
-            title: 'PIXEL ART',
-        },
-        {
-            id: 5,
-            title: 'MUSIC',
-        },
-        {
-            id: 6,
-            title: 'ABSTRACT',
-        },
-        {
-            id: 7,
-            title: '2D ARTS',
-        },
-
-    ]);
-
     return (
         <div className='page-liveauction'>
 

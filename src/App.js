@@ -10,7 +10,6 @@ import Page404 from './pages/404';
 
 import '../src/assets/binasea.css';
 import '../src/assets/font-awesome.css';
-import ComingSoon from './pages/ComingSoon';
 
 function App() {
 
@@ -22,8 +21,8 @@ function App() {
 
     return (
         <>
-            <ComingSoon />
-            {/* <Header />
+
+            <Header />
 
             <Routes>
 
@@ -36,7 +35,7 @@ function App() {
                 <Route path='*' element={<Page404 />} />
             </Routes>
 
-            <Footer /> */}
+            <Footer />
         </>
     );
 }

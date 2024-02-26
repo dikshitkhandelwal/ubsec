@@ -10,7 +10,6 @@ import img1 from '../../assets/images/slider/slider-8.png'
 import img2 from '../../assets/images/slider/slider-9.png'
 import img3 from '../../assets/images/slider/slider-10.png'
 import img4 from '../../assets/images/slider/slider-11.png'
-import { Link } from 'react-router-dom';
 import CardModal from '../layouts/CardModal';
 
 ComingSoonBanner.propTypes = {
