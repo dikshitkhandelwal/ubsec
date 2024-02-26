@@ -1,5 +1,4 @@
 import React , {useState} from 'react';
-import PropTypes from 'prop-types';
 
 import img1 from '../assets/images/ranking/ranking-1.png'
 import img2 from '../assets/images/ranking/ranking-2.png'

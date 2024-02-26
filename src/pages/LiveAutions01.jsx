@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import PageTitle from '../components/pagetitle/PageTitle';
 import LiveAuction4 from '../components/liveautions/LiveAuction4';
 import dataLiveaution from '../assets/fake-data/data-liveaution';

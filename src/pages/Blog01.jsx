@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import PageTitle from '../components/pagetitle/PageTitle';
 import data from '../assets/fake-data/data-blog'
 import { Link } from 'react-router-dom';

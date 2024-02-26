@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import PageTitle from '../components/pagetitle/PageTitle';
 import HotPick from '../components/hotpick/HotPick';
 import dataHotpick from '../assets/fake-data/data-hotpick';

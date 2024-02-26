@@ -1,5 +1,4 @@
 import React , {useState} from 'react';
-import PropTypes from 'prop-types';
 
 import {  Scrollbar, A11y   } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -11,8 +10,6 @@ import img1 from '../../assets/images/slider/slider-8.png'
 import img2 from '../../assets/images/slider/slider-9.png'
 import img3 from '../../assets/images/slider/slider-10.png'
 import img4 from '../../assets/images/slider/slider-11.png'
-import img5 from '../../assets/images/slider/slider-6.png'
-import avt from '../../assets/images/slider/slider-7.png'
 import { Link } from 'react-router-dom';
 import CardModal from '../layouts/CardModal';
 
@@ -46,7 +43,7 @@ function Banner05(props) {
                                                 <img src={img3} alt="Binasea" class="img-star star-3 ani4" />
                                                 <img src={img4} alt="Binasea" class="img-star star-4 ani5" />
                                                 <h1 class="heading">
-                                                    Defind, Collect And Sell Super Rate <span>NFT</span>  
+                                                    Securing Futures, Empowering Minds <span>UBSEC</span>  
                                                 </h1>
                                                 <p class="sub-heading">{idx.desc}</p>
                                                 <div class="btn-slider ">
@@ -54,7 +51,7 @@ function Banner05(props) {
                                                     <Link to="/create" class="tf-button style-2">Creat</Link>
                                                 </div>
                                             </div>
-                                            <div class="image">
+                                            {/* <div class="image">
                                                 <div class="img-slider"><img src={img5} alt="Binasea" /></div>
                                             
                                                 <div class="swiper-container slider-card-product">
@@ -90,10 +87,8 @@ function Banner05(props) {
                                                             </div>
                                                         </div>
                                                     </div>
-
-                                                    </div>
-                                                
-                                            </div>
+                                                </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 </SwiperSlide>

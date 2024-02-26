@@ -26,15 +26,17 @@ import Login from "./Login";
 import Ranking from "./Ranking";
 import SignUp from "./SignUp";
 import Wallet from "./Wallet";
+import ComingSoon from "./ComingSoon";
 
 
 
 const routes = [
-  { path: '/', component: <Home01 />},
+  { path: '/', component: <Home05 />},
+  { path: '/coming-soon', component: <ComingSoon />},
   { path: '/home-v2', component: <Home02 />},
   { path: '/home-v3', component: <Home03 />},
   { path: '/home-v4', component: <Home04 />},
-  { path: '/home-v5', component: <Home05 />},
+  { path: '/home-v5', component: <Home01 />},
   { path: '/home-v6', component: <Home06 />},
   { path: '/explore-v1', component: <Explore01 />},
   { path: '/explore-v2', component: <Explore02 />},
@@ -58,9 +60,6 @@ const routes = [
   { path: '/blog-details-v1', component: <BlogDetails01 />},
   { path: '/blog-details-v2', component: <BlogDetails02 />},
   { path: '/contact', component: <Contact />},
-
-
-
 ]
 
 export default routes;

@@ -1,8 +1,6 @@
 import React , {useState} from 'react';
-import PropTypes from 'prop-types';
 
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import PageTitle from '../components/pagetitle/PageTitle';
 import { Link } from 'react-router-dom';
 import img from '../assets/images/background/thumb-pagetitle.jpg'
 import avt from '../assets/images/author/author-db.jpg'

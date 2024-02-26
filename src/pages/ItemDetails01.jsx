@@ -1,5 +1,4 @@
 import React , {useState} from 'react';
-import PropTypes from 'prop-types';
 import PageTitle from '../components/pagetitle/PageTitle';
 import { Link } from 'react-router-dom';
 import img1 from '../assets/images/item-details.jpg'

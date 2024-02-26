@@ -1,8 +1,6 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import Banner04 from '../components/banner/Banner04';
 import dataBanner from '../assets/fake-data/data-banner';
-
 import dataCollection from '../assets/fake-data/data-collection';
 import TopSeller4 from '../components/topseller/TopSeller4';
 import dataSeller from '../assets/fake-data/data-topseller';

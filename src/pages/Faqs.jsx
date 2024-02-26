@@ -1,6 +1,4 @@
 import React , {useState} from 'react';
-import PropTypes from 'prop-types';
-
 import { Accordion } from 'react-bootstrap-accordion';
 import { Link } from 'react-router-dom';
 import data from '../assets/fake-data/data-hotpick'

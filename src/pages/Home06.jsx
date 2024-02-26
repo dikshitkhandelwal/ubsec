@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import Banner06 from '../components/banner/Banner06';
 import dataBanner from '../assets/fake-data/data-banner';
 import Artis from '../components/artis/Artis';

@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import dataCategory from '../assets/fake-data/data-category';
 import TopSeller from '../components/topseller/TopSeller';
 import dataSeller from '../assets/fake-data/data-topseller';
