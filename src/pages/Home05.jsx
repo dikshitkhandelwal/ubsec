@@ -13,14 +13,6 @@ function Home05(props) {
             <div id='page'>
                 <Banner05 data={dataBanner} />
 
-                {/* <LiveAutions5 data={dataLiveaution} /> */}
-
-                {/* <TopSeller5 data={dataSeller} /> */}
-
-                {/* <HotPick data={dataHotpick} /> */}
-
-                {/* <Collection5 data={dataCollection} /> */}
-
                 <Create5 />
             </div>
         </div>

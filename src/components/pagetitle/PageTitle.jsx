@@ -23,7 +23,7 @@ function PageTitle(props) {
                                 <li>{title}</li>
                             </ul>
 
-                            <h4 className="page-title-heading">{title}</h4>
+                            {/* <h4 className="page-title-heading">{title}</h4> */}
                    
                         </div>
                     </div>

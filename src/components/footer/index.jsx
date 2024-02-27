@@ -54,7 +54,7 @@ function Footer(props) {
                                     <li><Link to="#"><i className="icon-fl-tik-tok-2"></i></Link></li>
                                     <li><Link to="#"><i className="icon-fl-vt"></i></Link></li>
                                 </ul>
-                                <p className="copy-right">Copyright © 2022 Themesflat. All Rights Reserved.
+                                <p className="copy-right">Copyright © 2024 UBSEC. All Rights Reserved.
 
                                 </p>
                             </div>
@@ -96,12 +96,12 @@ function Footer(props) {
                         </div>
                         <div className="col-xl-3 col-lg-3 col-md-4">
                             <div className="widget widget-subcribe">
-                                <h6 className="widget-title">Subscribe Us</h6>
-                                <p className="content">Signup for our newsletter to get the latest news in your inbox.</p>
-                                <form action="#" id="subscribe-form">
+                                <h6 className="widget-title">Email for queries</h6>
+                                <p className="content">ubsec-club@buffalo.edu</p>
+                                {/* <form action="#" id="subscribe-form">
                                     <input type="email" placeholder="Info@yourgmail.com" required="" id="subscribe-email" />
                                     <button className="tf-button" type="submit" id="subscribe-button"><i className="icon-fl-send"></i></button>
-                                </form>
+                                </form> */}
                             </div>
                         </div>
                     </div>

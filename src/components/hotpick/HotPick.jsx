@@ -1,13 +1,11 @@
 import React , {useState} from 'react';
 import PropTypes from 'prop-types';
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import { Tabs, TabPanel } from 'react-tabs';
 import './style.scss';
 import CardModal from '../layouts/CardModal';
-import { Dropdown } from 'react-bootstrap';
 
 import icon1 from '../../assets/images/icon/rain1.svg'
 import icon2 from '../../assets/images/icon/rain2.svg'
-import icon3 from '../../assets/images/icon/ethe.svg'
 import { Link } from 'react-router-dom';
 
 HotPick.propTypes = {
@@ -68,36 +66,9 @@ function HotPick(props) {
                             </div>
                         </div>
                         <div className="col-md-12">
-                        <Tabs>
-                            <div className="d-flex justify-content-between mb-wr">
-                                <TabList>
-                                    {
-                                        dataTab.map(idx => (
-                                            <Tab key={idx.id}>{idx.title}</Tab>
-                                        ))
-                                    }
-                                    
-                                </TabList>
-                                <Dropdown>
-                                    <Dropdown.Toggle id="dropdown-basic" className=''>
-                                        Recently create    
-                                    </Dropdown.Toggle>
 
-                                    <Dropdown.Menu>
-                                    <Dropdown.Item href="#">
-                                        <li><span>Recently Listed</span></li>
-                                    </Dropdown.Item>
-                                    <Dropdown.Item href="#">
-                                        <li className="active"><span>Recently Created</span></li>
-                                    </Dropdown.Item>
-                                    <Dropdown.Item href="#">
-                                        <li><span>Recently Sold</span></li>
-                                    </Dropdown.Item>
-                                    
-                                    </Dropdown.Menu>
-                                </Dropdown>
-        
-                            </div>
+                            
+                        <Tabs>
 
 
                             {
@@ -109,10 +80,10 @@ function HotPick(props) {
                                                     <div key={idx.id} className="col-xl-3 col-lg-4 col-md-6 col-sm-6 tf-loadmore 3d cyber">
                                                         <div className="sc-product style2">
                                                             <div className="top">
-                                                                <Link to="/item-details" className="tag">{idx.title}</Link>
-                                                                <div className="wish-list">
+                                                                <Link to={idx.link} className="tag">{idx.title}</Link>
+                                                                {/* <div className="wish-list">
                                                                     <Link to="#" className="heart-icon"></Link>
-                                                                </div>
+                                                                </div> */}
                                                             </div>
                                                             <div className="bottom">
                                                                 <div className="details-product">
@@ -121,7 +92,7 @@ function HotPick(props) {
                                                                             <img src={idx.avt} alt="images" />
                                                                         </div>
                                                                         <div className="content">
-                                                                            <div className="position">Creator</div>
+                                                                            <div className="position">{idx.position}</div>
                                                                             <div className="name"> <Link to="#">{idx.create}</Link></div>
                                                                         </div>
                                                                     </div>
@@ -134,7 +105,7 @@ function HotPick(props) {
                                                                 <div className="rain-drop1"><img src={icon1} alt="images" /></div>
                                                                 <div className="rain-drop2"><img src={icon2} alt="images" /></div>
                                                             </div>
-                                                            <div className="bottom-style2">
+                                                            {/* <div className="bottom-style2">
                                                                 <div className="price">
                                                                     <div className="icon"><img src={icon3} alt="images" /></div>
                                                                     <div className="content">
@@ -145,7 +116,7 @@ function HotPick(props) {
                                                                 <div className="product-button">
                                                                     <Link to='' onClick={() => setModalShow(true)} className="tf-button"> Purchase</Link>
                                                                 </div>
-                                                            </div>
+                                                            </div> */}
 
                                                         </div>
                                                     </div>
@@ -164,11 +135,6 @@ function HotPick(props) {
 
                     </div>
 
-                    <div className="col-md-12">
-                        <div className="btn-loadmore mt17 wow fadeInUp">
-                            <Link to="/explore-v1" className="tf-button loadmore style-4">Load more</Link>
-                        </div>
-                    </div>
                 </div>
 
                 <CardModal 

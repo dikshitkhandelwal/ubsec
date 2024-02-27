@@ -13,10 +13,6 @@ import { Link } from 'react-router-dom';
 import shape1 from '../../assets/images/slider/bg-slider.png'
 import shape2 from '../../assets/images/slider/bg-slider-4.png'
 import img1 from '../../assets/images/product/product26.jpg'
-import avt1 from '../../assets/images/author/authorpd14.png'
-import avt2 from '../../assets/images/author/authorpd15.png'
-import avt3 from '../../assets/images/author/authorpd16.png'
-
 Banner02.propTypes = {
     data : PropTypes.array,
 };
@@ -42,7 +38,7 @@ function Banner02(props) {
                                     <div className="tf-slider-item style-2">
                                         <div className="content-inner">
                                             <h1 className="heading">
-                                                Defind, Coll<span>ect</span> and Sell Sup<span>er</span> Rate NFT  
+                                            Securing <span>Futures, </span> Empowering<span>Minds</span>
                                                 <img src={shape1} alt="Binasea" />  
                                             </h1>
                                             <p className="sub-heading">{idx.desc}</p>
@@ -57,22 +53,6 @@ function Banner02(props) {
                                                     <div className="product-media">
                                                         <img src={img1} alt="images" />
                                                     </div>
-                                                </div>
-                                                <div className="content">
-                                                    <div className="profile-author">
-                                                        <Link to="#" className="avatar" data-tooltip="Creator: Daniel Jordan" tabIndex="0"><img src={avt1} alt="images" /></Link>
-                                                        <Link to="#" className="avatar" data-tooltip="Creator: Daniel Rose" tabIndex="0"><img src={avt2} alt="images" /></Link>
-                                                        <Link to="#" className="avatar" data-tooltip="Creator: Solvador" tabIndex="0"><img src={avt3} alt="images" /></Link>
-                                                    </div>
-                                                    <div className="details-product">
-                                                        <div className="title"> <Link to="/item-details-v1">“The Monkey sad ”</Link> </div>
-                                                        <div className="creator"> <Link to="#">{idx.tag}</Link> </div>
-                                                    </div>
-                                                    <div className="price">
-                                                        <div className="subtitle">Current bid</div>
-                                                        <div className="cash">{idx.price}</div>
-                                                    </div>
-                                                    
                                                 </div>
                                             </div>
                                             <img src={shape2} alt="Binasea" className="img-slider-2" />
