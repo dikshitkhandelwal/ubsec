@@ -44,39 +44,23 @@ const menus = [
             {
                 id: 1,
                 sub: 'Spring 2024',
-                links: '/explore-v1'
+                links: '/events/spring-2024'
             }
         ]
     },
-    // {
-    //     id: 4,
-    //     name: 'UBLinked',
-    //     links: '#',
-    //     // namesub: [
-
-    //     //     // {
-    //     //     //     id: 6,
-    //     //     //     sub: 'Login',
-    //     //     //     links: '/login'
-    //     //     // },
-    //     //     // {
-    //     //     //     id: 7,
-    //     //     //     sub: 'Sign Up',
-    //     //     //     links: '/signup'
-    //     //     // },
-    //     // ],
-    // },
 
     {
         id: 5,
         name: 'Discord',
-        links: '/create',
+        links: 'https://discord.gg/THcrbZBPAJ',
+        external: true
     },
 
     {
         id: 5,
         name: 'UBLinked',
-        links: '/create',
+        links: 'https://buffalo.campuslabs.com/engage/organization/ubsec',
+        external: true
     },
 
     {
@@ -84,40 +68,11 @@ const menus = [
         name: 'Eboard',
         links: '/eboard',
     },
-    // {
-    //     id: 6,
-    //     name: 'Events',
-    //     links: '#',
-
-    //     namesub: [
-    //         {
-    //             id: 1,
-    //             sub: 'Blog v1',
-    //             links: '/blog-v1'
-    //         },
-    //         {
-    //             id: 2,
-    //             sub: 'Blog v2',
-    //             links: '/blog-v2'
-    //         },
-    //         {
-    //             id: 3,
-    //             sub: 'Blog Details v1',
-    //             links: '/blog-details-v1'
-    //         },
-    //         {
-    //             id: 4,
-    //             sub: 'Blog Details v2',
-    //             links: '/blog-details-v2'
-    //         },
-
-    //     ],
-    // },
 
     {
         id: 7,
         name: 'About Us',
-        links: '/about',
+        links: '/about-us',
     },
 
     {

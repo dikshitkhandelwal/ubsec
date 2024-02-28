@@ -60,7 +60,14 @@ const Header = () => {
                                                 <li key={idx} onClick={()=> handleDropdown(idx)} className={`menu-item ${data.namesub ? 'menu-item-has-children' : ''} ${activeIndex === idx ? 'active' : ''}`} 
                                                 
                                                 >
-                                                    <Link to={data.links}>{data.name}</Link>
+                                                    {
+                                                        data.external ? (
+                                                            <a href={data.links} target="_blank" rel="noopener noreferrer">{data.name}</a> // Use <a> for external links
+                                                        ) : (
+                                                            <Link to={data.links}>{data.name}</Link> // Use <Link> for internal navigation
+                                                        )
+                                                    }
+
                                                     {
                                                         data.namesub &&
                                                         <ul className="sub-menu">

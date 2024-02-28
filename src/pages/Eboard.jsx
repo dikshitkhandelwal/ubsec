@@ -1,7 +1,7 @@
 import React from 'react';
 import PageTitle from '../components/pagetitle/PageTitle';
 import HotPick from '../components/hotpick/HotPick';
-import dataHotpick from '../assets/fake-data/data-hotpick';
+import eboard from '../assets/data/eboard';
 
 Eboard.propTypes = {
     
@@ -12,7 +12,7 @@ function Eboard(props) {
         <div className='page-explore'>
             <PageTitle none='none' title='Eboard' />
 
-            <HotPick data={dataHotpick} />
+            <HotPick data={eboard} />
             
         </div>
     );

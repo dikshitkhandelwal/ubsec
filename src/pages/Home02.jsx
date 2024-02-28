@@ -1,6 +1,6 @@
 import React from 'react';
-import dataBanner from '../assets/fake-data/data-banner';
-import dataCreate from '../assets/fake-data/data-create';
+import dataBanner from '../assets/data/data-banner';
+import dataCreate from '../assets/data/data-create';
 import Banner02 from '../components/banner/Banner02';
 import Create from '../components/create/Create';
 

@@ -6,7 +6,7 @@ import img3 from '../images/product/product33.jpg'
 import img4 from '../images/product/product34.jpg'
 import img5 from '../images/product/product35.jpg'
 import avt from '../images/author/author1.png'
-const dataHotpick = [
+const eboard = [
     {
         id: 1,
         img: img1,
@@ -59,4 +59,4 @@ const dataHotpick = [
     }
 ]
 
-export default dataHotpick;
+export default eboard;

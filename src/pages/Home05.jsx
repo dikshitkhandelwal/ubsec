@@ -1,6 +1,6 @@
 import React from 'react';
 import Banner05 from '../components/banner/Banner05';
-import dataBanner from '../assets/fake-data/data-banner';
+import dataBanner from '../assets/data/data-banner';
 import Create5 from '../components/create/Create5';
 
 Home05.propTypes = {
