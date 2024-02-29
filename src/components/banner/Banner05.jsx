@@ -47,48 +47,10 @@ function Banner05(props) {
                                                 </h1>
                                                 <p class="sub-heading">{idx.desc}</p>
                                                 <div class="btn-slider ">
-                                                    <Link to="/explore-v1" class="tf-button">Explore now </Link>
-                                                    <Link to="/create" class="tf-button style-2">Creat</Link>
+                                                    <Link to="/events/spring-2024" class="tf-button">Spring 24 Events</Link>
+                                                    <Link to="/about-us" class="tf-button style-2">About UBSEC</Link>
                                                 </div>
                                             </div>
-                                            {/* <div class="image">
-                                                <div class="img-slider"><img src={img5} alt="Binasea" /></div>
-                                            
-                                                <div class="swiper-container slider-card-product">
-                                                    <div class="swiper-wrapper">
-                                                        <div class="swiper-slide">
-                                                            <div class="card-product">
-                                                                <h4>Banana #2442</h4>
-                                                                <p class="cate">Limitted Edittion</p>
-                                                                <div class="infor-author">
-                                                                    <img src={avt} alt="Binasea" />
-                                                                    <div class="infor">
-                                                                        <p>creator</p>
-                                                                        <h6 class="name">@Grient Phahn</h6>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="infor-price">
-                                                                    <div class="curent-bid">
-                                                                        <p>Current Bid</p>
-                                                                        <div class="price">
-                                                                            <div class="icon"><i class="fab fa-ethereum"></i></div>
-                                                                            <p>5 ETH</p>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="countdown style-4">
-                                                                        <p>Audition end in</p>
-                                                                        <span class="js-countdown " data-timer="55555" data-labels=" , :, : ,  "></span>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="btn-button">
-                                                                    <Link to="#" onClick={() => setModalShow(true)}  data-toggle="modal" data-target="#popup_bid" class="tf-button style-2">Place bid </Link>
-                                                                    <Link to="/item-details-v1" class="tf-button style-3">View Details</Link>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div> */}
                                         </div>
                                     </div>
                                 </SwiperSlide>
@@ -96,12 +58,9 @@ function Banner05(props) {
                             ))
                         }
                     </Swiper>
-
-                            
                         </div>
                     </div>
                 </div>
-
                 <CardModal 
                 show={modalShow}
                 onHide={() => setModalShow(false)} 

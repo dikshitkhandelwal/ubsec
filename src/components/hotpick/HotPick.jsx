@@ -88,12 +88,9 @@ function HotPick(props) {
                                                             <div className="bottom">
                                                                 <div className="details-product">
                                                                     <div className="author">
-                                                                        <div className="avatar">
-                                                                            <img src={idx.avt} alt="images" />
-                                                                        </div>
                                                                         <div className="content">
                                                                             <div className="position">{idx.position}</div>
-                                                                            <div className="name"> <Link to="#">{idx.create}</Link></div>
+                                                                            <div className="name"> <Link to="#">Major: {idx.create}</Link></div>
                                                                         </div>
                                                                     </div>
                                                                 </div>

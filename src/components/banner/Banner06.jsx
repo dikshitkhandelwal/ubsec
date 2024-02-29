@@ -41,12 +41,12 @@ function Banner06(props) {
                                     <div className="tf-slider-item style-6">
                                                 <div className="content-inner">
                                                     <h1 className="heading">
-                                                        Discover Best A Universe And Collect <span>NFT.</span>  
+                                                        Securing Futures, Empowering Minds <span>UBSEC</span>  
                                                     </h1>
-                                                    <p className="sub-heading">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Integer Nec Odio. Praesent Libero. Sed </p>
+                                                    <p className="sub-heading">UBSEC, the cybersecurity club at the University of Buffalo, is a vibrant community of tech enthusiasts dedicated to mastering the art and science of digital defense.</p>
                                                     <div className="btn-slider ">
-                                                        <Link to="/live-auctions-v1" className="tf-button style-2">Discover now</Link>
-                                                        <Link to="/create" className="tf-button style-9">Creat NFT</Link>
+                                                        <Link to="/events/spring-2024" className="tf-button style-2">Spring 24 Events</Link>
+                                                        <Link to="/create" className="tf-button style-9">About UBSEC</Link>
                                                     </div>
                                                 </div>
                                                 <div className="image ani4">

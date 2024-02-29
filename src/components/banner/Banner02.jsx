@@ -43,8 +43,8 @@ function Banner02(props) {
                                             </h1>
                                             <p className="sub-heading">{idx.desc}</p>
                                             <div className="btn-slider ">
-                                                <Link to="/explore-v1" className="tf-button style-2">Explore now</Link>
-                                                <Link to="/create" className="tf-button style-3">Create</Link>
+                                                <Link to="/events/spring-2024" className="tf-button style-2">Spring 24 Events</Link>
+                                                <Link to="/create" className="tf-button style-3">About UBSEC</Link>
                                             </div>
                                         </div>
                                         <div className="image">

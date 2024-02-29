@@ -35,10 +35,13 @@ function Contact(props) {
                     </div>
                     <div className="col-md-6">
                         <div className="tf-heading style-3">
-                            <h4 className="heading">Drop Up A Message</h4>
-                            <p className="sub-heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati dignissimos quae quo ad iste ipsum officiis deleniti asperiores sit. </p>
+                            <h2 className="heading">Drop Up A Message</h2>
+                            <h4 className="sub-heading"><a href="mailto:ubsec-club@buffalo.edu">ubsec-club@buffalo.edu</a></h4>
+                            <h4 className="sub-heading">OR</h4>
+                            <h4 className="sub-heading"><a href="https://discord.gg/THcrbZBPAJ">Join Discord</a></h4>
+
                         </div>
-                        <form action="contact/contact-process.php" method="post" id="commentform"  className="comment-form">
+                        {/* <form action="contact/contact-process.php" method="post" id="commentform"  className="comment-form">
                             <fieldset className="name">
                                 <input type="text" id="name" placeholder="Your Full Name" className="tb-my-input" name="name" tabIndex="2" aria-required="true" required="" />
                             </fieldset>    
@@ -57,7 +60,7 @@ function Contact(props) {
                                 <textarea id="message" name="message" rows="4" placeholder="Message" tabIndex="4" aria-required="true" required="" />
                             </fieldset>
                             <div className="btn-submit"><button className="tf-button" type="submit">Send message</button></div>
-                        </form>
+                        </form> */}
                         
 
                     

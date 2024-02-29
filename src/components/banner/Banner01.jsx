@@ -39,13 +39,13 @@ function Banner01(props) {
                                     <div className="tf-slider-item">
                                         <div className="content-inner">
                                             <h1 className="heading">
-                                                Defind, Coll<span>ect</span> and Sell Sup<span>er</span> Rate NFT  
+                                                Securing Futures, Empowering Minds <span>UBSEC</span> 
                                                 <img src={img1} alt="Binasea" />  
                                             </h1>
                                             <p className="sub-heading">{idx.desc}</p>
                                             <div className="btn-slider ">
-                                                <Link to="/explore-v2" className="tf-button style-2">Explore now</Link>
-                                                <Link to="/create" className="tf-button style-3">Creat</Link>
+                                                <Link to="/events/spring-2024" className="tf-button style-2">Spring 24 Events</Link>
+                                                <Link to="/create" className="tf-button style-3">About UBSEC</Link>
                                             </div>
                                         </div>
                                         <div className="image">
