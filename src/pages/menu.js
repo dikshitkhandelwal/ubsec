@@ -54,6 +54,7 @@ const menus = [
         name: 'Discord',
         links: 'https://discord.gg/THcrbZBPAJ',
         external: true
+
     },
 
     {
@@ -74,13 +75,6 @@ const menus = [
         name: 'About Us',
         links: '/about-us',
     },
-
-    {
-        id: 7,
-        name: 'Contact',
-        links: '/contact',
-    },
-    
 ]
 
 export default menus;
