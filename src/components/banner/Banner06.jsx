@@ -8,14 +8,6 @@ import 'swiper/scss/navigation';
 import 'swiper/scss/pagination';
 import { Link } from 'react-router-dom';
 
-import img from '../../assets/images/product/product75.jpg'
-import img2 from '../../assets/images/product/product79.jpg'
-
-import icon1 from '../../assets/images/icon/rain1.svg'
-import icon2 from '../../assets/images/icon/rain2.svg'
-import icon3 from '../../assets/images/icon/ethe.svg'
-import avt from '../../assets/images/author/author1.png'
-
 Banner06.propTypes = {
     
 };

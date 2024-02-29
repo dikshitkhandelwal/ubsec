@@ -4,8 +4,6 @@ import { Tabs, TabPanel } from 'react-tabs';
 import './style.scss';
 import CardModal from '../layouts/CardModal';
 
-import icon1 from '../../assets/images/icon/rain1.svg'
-import icon2 from '../../assets/images/icon/rain2.svg'
 import { Link } from 'react-router-dom';
 
 EventStructure.propTypes = {
