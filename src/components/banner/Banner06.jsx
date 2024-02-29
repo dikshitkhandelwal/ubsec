@@ -49,7 +49,7 @@ function Banner06(props) {
                                                         <Link to="/create" className="tf-button style-9">About UBSEC</Link>
                                                     </div>
                                                 </div>
-                                                <div className="image ani4">
+                                                {/* <div className="image ani4">
                                                     <div className="sc-product style1 ">
                                                         <div className="top">
                                                             <Link to="/item-details-v1" className="tag">Giulia Glur #32</Link>
@@ -109,7 +109,7 @@ function Banner06(props) {
                         
                                                         </div>
                                                     </div>
-                                                </div>
+                                                </div> */}
                                             </div>
                                 </SwiperSlide>
                                 
