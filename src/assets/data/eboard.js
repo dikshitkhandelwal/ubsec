@@ -6,55 +6,54 @@ import img3 from '../images/product/product33.jpg'
 import img4 from '../images/product/product34.jpg'
 import img5 from '../images/product/product35.jpg'
 import avt from '../images/author/author1.png'
+
+import DikshitKhandelwal from '../images/Members/Dikshit_Khandelwal.png'
+import AustinChen from '../images/Members/Austin_Chen.jpg'
+import JonathanPestinger from '../images/Members/Jonathan_Pestinger.jpg'
+
 const eboard = [
     {
         id: 1,
-        img: img1,
-        avt: avt,
+        img: DikshitKhandelwal,
         title: 'Dikshit Khandelwal',
-        create: 'Computer Science',
+        major: 'Computer Science',
         position: 'President',
-        link: '/eboard/dikshit-khandelwal'
+        linkedin: 'https://www.linkedin.com/in/dikshitkhandelwal/'
     },
     {
         id: 2,
-        img: img2,
-        avt: avt,
+        img: AustinChen,
         title: 'Austin Chen',
-        create: 'ITM',
+        major: 'ITM',
         position: 'Vice President',
-        link: '/eboard/ausin-chen'
+        linkedin: 'https://www.linkedin.com/in/austincinfosec/'
 
     },
     {
         id: 3,
-        img: img3,
-        avt: avt,
+        img: JonathanPestinger,
         title: 'Jonathan Pestinger',
-        create: 'ITM',
+        major: 'ITM',
         position: 'Secretary',
-        link: '/eboard/jonathan-pestinger'
+        linkedin: 'https://www.linkedin.com/in/jonathanpestinger/'
 
     },
     {
         id: 4,
         img: img4,
-        avt: avt,
         title: 'Steffi',
-        create: 'ITM',
+        major: 'ITM',
         position: 'Treasurer',
-        link: '/eboard/steffi'
+        linkedin: 'https://www.linkedin.com/in/chih-hsuan-yeh-steffi/'
 
     },
     {
         id: 5,
         img: img5,
-        avt: avt,
         title: 'Lauren Moore',
-        create: 'ITM',
-
+        major: 'ITM',
         position: 'Events Co-ordinator',
-        link: '/eboard/lauran-moore'
+        linkedin: 'https://www.linkedin.com/in/lauren-moore-86a939268/'
 
     }
 ]

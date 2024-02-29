@@ -80,17 +80,15 @@ function HotPick(props) {
                                                     <div key={idx.id} className="col-xl-3 col-lg-4 col-md-6 col-sm-6 tf-loadmore 3d cyber">
                                                         <div className="sc-product style2">
                                                             <div className="top">
-                                                                <Link to={idx.link} className="tag">{idx.title}</Link>
-                                                                {/* <div className="wish-list">
-                                                                    <Link to="#" className="heart-icon"></Link>
-                                                                </div> */}
+                                                                <Link to="#" className="tag">{idx.title}</Link>
                                                             </div>
                                                             <div className="bottom">
                                                                 <div className="details-product">
                                                                     <div className="author">
                                                                         <div className="content">
-                                                                            <div className="position">{idx.position}</div>
-                                                                            <div className="name"> <Link to="#">Major: {idx.create}</Link></div>
+                                                                            <div className="name">{idx.position}</div>
+                                                                            <div className="name"> <Link to="#">Major: {idx.major}</Link></div>
+                                                                            <div className="name"><a href={idx.linkedin}>Linkedin</a></div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -102,19 +100,6 @@ function HotPick(props) {
                                                                 <div className="rain-drop1"><img src={icon1} alt="images" /></div>
                                                                 <div className="rain-drop2"><img src={icon2} alt="images" /></div>
                                                             </div>
-                                                            {/* <div className="bottom-style2">
-                                                                <div className="price">
-                                                                    <div className="icon"><img src={icon3} alt="images" /></div>
-                                                                    <div className="content">
-                                                                        <div className="name">ETH</div>
-                                                                        <div className="cash">{idx.price}</div>
-                                                                    </div>
-                                                                </div>
-                                                                <div className="product-button">
-                                                                    <Link to='' onClick={() => setModalShow(true)} className="tf-button"> Purchase</Link>
-                                                                </div>
-                                                            </div> */}
-
                                                         </div>
                                                     </div>
                                                 ))
@@ -124,16 +109,10 @@ function HotPick(props) {
                                     </TabPanel>
                                 ))
                             }
-                            
-
                         </Tabs> 
-              
                         </div>
-
                     </div>
-
                 </div>
-
                 <CardModal 
                 show={modalShow}
                 onHide={() => setModalShow(false)} 

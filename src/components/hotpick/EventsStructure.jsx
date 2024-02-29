@@ -59,11 +59,6 @@ function EventStructure(props) {
                 <div className="tf-container">
                     <div className="row ">
                         <div className="col-md-12">
-                            <div className="tf-heading mb32 wow fadeInUp">
-                                <h4 className="heading">Hot Picks</h4>
-                            </div>
-                        </div>
-                        <div className="col-md-12">
 
                             
                         <Tabs>
