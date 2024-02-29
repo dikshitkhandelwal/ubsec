@@ -1,12 +1,8 @@
 
 
-import img1 from '../images/product/product2.jpg'
-import img2 from '../images/product/product32.jpg'
-import img3 from '../images/product/product33.jpg'
+
 import img4 from '../images/product/product34.jpg'
 import img5 from '../images/product/product35.jpg'
-import avt from '../images/author/author1.png'
-
 import DikshitKhandelwal from '../images/Members/Dikshit_Khandelwal.png'
 import AustinChen from '../images/Members/Austin_Chen.jpg'
 import JonathanPestinger from '../images/Members/Jonathan_Pestinger.jpg'
