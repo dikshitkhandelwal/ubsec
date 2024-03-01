@@ -2,8 +2,8 @@ import React , { useState ,useEffect } from 'react';
 import './styles.scss';
 import { Link } from 'react-router-dom';
 
-import logo from '../../assets/images/logo/logo.png';
-import logodark from '../../assets/images/logo/logo_dark.png';
+// import logo from '../../assets/images/logo/logo.png';
+// import logodark from '../../assets/images/logo/logo_dark.png';
 
 import './styles.scss'
 
@@ -41,10 +41,10 @@ function Footer(props) {
                     <div className="row">
                         <div className="col-xl-4 col-lg-3 col-md-3">
                             <div className="widget widget-infor">
-                                <div className="logo">
+                                {/* <div className="logo">
                                     <img id="logo_footer" className='logo-dark' src={logodark} alt="Binasea" />
                                     <img id="logo_footer" className='logo-light' src={logo} alt="Binasea" />
-                                </div>
+                                </div> */}
                                 <p className="content">UBSEC is a platform for students to explore the field of cybersecurity, foster a community around technology and security.</p>
                                 <ul className="social-item">
                                     <li><Link to="#"><i className="fab fa-discord"></i></Link></li>

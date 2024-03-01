@@ -14,8 +14,8 @@ function Create5(props) {
                     <div className="row vertical-middle">
                         <div className="col-md-6">
                             <div className="content-banner">
-                                <h2 className="wow fadeInUp">Starts Here: Learn,
-                                    Engage, <span>Secure</span> </h2>
+                                <h3 className="wow fadeInUp">Starts Here: Learn,
+                                    Engage, <span>Secure</span> </h3>
                                 <p className="wow fadeInUp">Explore UBSEC: Where Cybersecurity Innovation Thrives and Digital Fortresses Are Fortified</p>
                                 <div className="group-btn wow fadeInUp">
                                     <a href="https://discord.gg/THcrbZBPAJ" className="tf-button style-2 btn-1" >Join Discord</a>

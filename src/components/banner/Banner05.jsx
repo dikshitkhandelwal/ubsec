@@ -42,9 +42,9 @@ function Banner05(props) {
                                                 <img src={img2} alt="UBSEC" class="img-star star-2 ani5" />
                                                 <img src={img3} alt="UBSEC" class="img-star star-3 ani4" />
                                                 <img src={img4} alt="UBSEC" class="img-star star-4 ani5" />
-                                                <h1 class="heading">
+                                                <h2 class="heading">
                                                     Securing Futures, Empowering Minds <span>UBSEC</span>  
-                                                </h1>
+                                                </h2>
                                                 <p class="sub-heading">{idx.desc}</p>
                                                 <div class="btn-slider ">
                                                     <Link to="/events/spring-2024" class="tf-button">Spring 24 Events</Link>
