@@ -39,12 +39,12 @@ function Banner02(props) {
                                         <div className="content-inner">
                                             <h1 className="heading">
                                             Securing <span>Futures, </span> Empowering<span>Minds</span>
-                                                <img src={shape1} alt="Binasea" />  
+                                                <img src={shape1} alt="UBSEC" />  
                                             </h1>
                                             <p className="sub-heading">{idx.desc}</p>
                                             <div className="btn-slider ">
                                                 <Link to="/events/spring-2024" className="tf-button style-2">Spring 24 Events</Link>
-                                                <Link to="/create" className="tf-button style-3">About UBSEC</Link>
+                                                <Link to="/about-us" className="tf-button style-3">About UBSEC</Link>
                                             </div>
                                         </div>
                                         <div className="image">
@@ -55,7 +55,7 @@ function Banner02(props) {
                                                     </div>
                                                 </div>
                                             </div>
-                                            <img src={shape2} alt="Binasea" className="img-slider-2" />
+                                            <img src={shape2} alt="UBSEC" className="img-slider-2" />
                                         </div>
                                     </div>
                                 </SwiperSlide>

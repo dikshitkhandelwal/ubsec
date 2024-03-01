@@ -19,7 +19,7 @@ function Banner06(props) {
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-md-12">
-                        <img src="assets/images/slider/bg-slider-2.png" alt="Binasea" className="img-slider-1" />  
+                        <img src="assets/images/slider/bg-slider-2.png" alt="UBSEC" className="img-slider-1" />  
                         <Swiper
                             modules={[Navigation,  Scrollbar, A11y ]}
                             spaceBetween={0}
@@ -38,7 +38,7 @@ function Banner06(props) {
                                                     <p className="sub-heading">UBSEC, the cybersecurity club at the University of Buffalo, is a vibrant community of tech enthusiasts dedicated to mastering the art and science of digital defense.</p>
                                                     <div className="btn-slider ">
                                                         <Link to="/events/spring-2024" className="tf-button style-2">Spring 24 Events</Link>
-                                                        <Link to="/create" className="tf-button style-9">About UBSEC</Link>
+                                                        <Link to="/about-us" className="tf-button style-9">About UBSEC</Link>
                                                     </div>
                                                 </div>
                                                 {/* <div className="image ani4">

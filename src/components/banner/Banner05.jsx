@@ -38,10 +38,10 @@ function Banner05(props) {
                                     <div class="slider-item">
                                         <div class="tf-slider-item style-5">
                                             <div class="content-inner">
-                                                <img src={img1} alt="Binasea" class="img-star star-1 ani4" />
-                                                <img src={img2} alt="Binasea" class="img-star star-2 ani5" />
-                                                <img src={img3} alt="Binasea" class="img-star star-3 ani4" />
-                                                <img src={img4} alt="Binasea" class="img-star star-4 ani5" />
+                                                <img src={img1} alt="UBSEC" class="img-star star-1 ani4" />
+                                                <img src={img2} alt="UBSEC" class="img-star star-2 ani5" />
+                                                <img src={img3} alt="UBSEC" class="img-star star-3 ani4" />
+                                                <img src={img4} alt="UBSEC" class="img-star star-4 ani5" />
                                                 <h1 class="heading">
                                                     Securing Futures, Empowering Minds <span>UBSEC</span>  
                                                 </h1>

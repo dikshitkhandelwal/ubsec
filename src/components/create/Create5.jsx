@@ -1,6 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-
 import img1 from '../../assets/images/banner/img-banner1.jpg'
 import img2 from '../../assets/images/banner/img-banner2.jpg'
 import img3 from '../../assets/images/banner/img-banner3.jpg'
@@ -16,12 +14,12 @@ function Create5(props) {
                     <div className="row vertical-middle">
                         <div className="col-md-6">
                             <div className="content-banner">
-                                <h2 className="wow fadeInUp">Creat and Sell
-                                    Your <span>NFTs</span> </h2>
-                                <p className="wow fadeInUp">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet </p>
+                                <h2 className="wow fadeInUp">Starts Here: Learn,
+                                    Engage, <span>Secure</span> </h2>
+                                <p className="wow fadeInUp">Explore UBSEC: Where Cybersecurity Innovation Thrives and Digital Fortresses Are Fortified</p>
                                 <div className="group-btn wow fadeInUp">
-                                    <Link to="/create" className="tf-button style-2 btn-1">Creat Item</Link>
-                                    <Link to="/live-auctions-v1" className="tf-button style-3 btn-2">Discover more</Link>
+                                    <a href="https://discord.gg/THcrbZBPAJ" className="tf-button style-2 btn-1" >Join Discord</a>
+                                    <a href="https://buffalo.campuslabs.com/engage/organization/ubsec" className="tf-button style-3 btn-2">UBLinked</a>
                                 </div>
                                 <div className="star ani3">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 53 53" fill="none">

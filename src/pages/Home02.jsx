@@ -1,8 +1,7 @@
 import React from 'react';
 import dataBanner from '../assets/data/data-banner';
-import dataCreate from '../assets/data/data-create';
 import Banner02 from '../components/banner/Banner02';
-import Create from '../components/create/Create';
+import Create5 from '../components/create/Create5';
 
 
 function Home02(props) {
@@ -10,11 +9,8 @@ function Home02(props) {
     return (
         <div className='home-2'>
             <div id="page">
-
                 <Banner02 data={dataBanner} />
-
-                <Create data={dataCreate} />
-
+                <Create5 />
             </div>
             
         </div>

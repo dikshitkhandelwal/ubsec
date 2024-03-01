@@ -12,9 +12,7 @@ function Home04(props) {
         <div className='home-4'>
             <div id="page">
                 <Banner04 data={dataBanner} />
-
                 <Create4 />
-
             </div>
         </div>
     );

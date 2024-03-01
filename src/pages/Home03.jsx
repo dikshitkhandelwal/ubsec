@@ -13,7 +13,6 @@ function Home03(props) {
 
             <div id="page">
                 <Banner03 data={dataBanner2} />
-
                 <Create2 />
             </div>
             

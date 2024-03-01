@@ -60,7 +60,7 @@ function Banner03(props) {
                             {
                                 data.map(idx =>(
                                     <SwiperSlide key={idx.id}>
-                                        <img src={idx.img} alt="Binasea"/>
+                                        <img src={idx.img} alt="UBSEC"/>
                                     </SwiperSlide>
                                 ))
                             }
@@ -86,17 +86,17 @@ function Banner03(props) {
                                     <SwiperSlide key={idx.id}>
                                         <div className="tf-slider-item style-3">
                                             <div className="content-inner">
-                                                <img src={shape1} alt="Binasea" className="img-star star-1 ani4" />
-                                                <img src={shape2} alt="Binasea" className="img-star star-2 ani5" />
-                                                <img src={shape3} alt="Binasea" className="img-star star-3 ani4" />
-                                                <img src={shape4} alt="Binasea" className="img-star star-4 ani5" />
+                                                <img src={shape1} alt="UBSEC" className="img-star star-1 ani4" />
+                                                <img src={shape2} alt="UBSEC" className="img-star star-2 ani5" />
+                                                <img src={shape3} alt="UBSEC" className="img-star star-3 ani4" />
+                                                <img src={shape4} alt="UBSEC" className="img-star star-4 ani5" />
                                                 <h1 className="heading">
                                                     {idx.heading} 
                                                 </h1>
                                                 <p className="sub-heading">{idx.desc}</p>
                                                 <div className="btn-slider ">
                                                     <Link to="/events/spring-2024" className="tf-button style-6">Spring 24 Events</Link>
-                                                    <Link to="/create" className="tf-button style-7">About UBSEC</Link>
+                                                    <Link to="/about-us" className="tf-button style-7">About UBSEC</Link>
                                                 </div>
                                             </div>
                                             

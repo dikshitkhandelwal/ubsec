@@ -14,7 +14,8 @@ function Create(props) {
                     <div className="row">
                         <div className="col-md-12">
                             <div className="tf-heading style-2 mb40 wow fadeInUp">
-                                <h4 className="heading">Create And Sell NFTs</h4>
+                            <h2 className="wow fadeInUp">Starts Here: Learn,
+                                    Engage, <span>Secure</span> </h2>
                             </div>
                         </div>
                         {
@@ -22,7 +23,7 @@ function Create(props) {
                                 <div className="col-lg-3 col-md-6" key={idx.id}>
                                     <div className="tf-create wow fadeInUp"  data-wow-delay="0.2s">
                                         <div className="icon">
-                                            <img src={idx.img} alt="Binasea" />
+                                            <img src={idx.img} alt="UBSEC" />
                                         </div>
                                         <h6 className="title"><Link to="#">{idx.heading}</Link></h6>
                                         <p className="content">{idx.text}</p>

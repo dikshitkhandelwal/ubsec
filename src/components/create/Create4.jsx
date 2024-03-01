@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import img from '../../assets/images/banner/thumb-banner.png'
 
@@ -37,16 +36,12 @@ function Create4(props) {
                         </div>
                         <div className="col-md-6">
                             <div className="content-banner">
-                                <div className="company "><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
-                                    <circle cx="20" cy="20" r="20" fill="#3749E9"/>
-                                    <path d="M12.8814 20.2451L20.4834 8C21.5319 9.5632 27.8252 19.8573 28.0853 20.2451C28.8718 21.4176 30.0163 25.8815 26.7747 29.1033C23.629 32.2297 18.9106 33.5323 14.4542 29.3638C10.992 26.1252 11.9202 21.982 12.8814 20.2451Z" fill="white"/>
-                                    </svg> cesea
-                                </div>
-                                <h2 className="wow fadeInUp">Create and Sell nFT with Cesea</h2>
-                                <p className="wow fadeInUp">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel</p>
+                                <h2 className="wow fadeInUp">Starts Here: Learn,
+                                    Engage, <span>Secure</span> </h2>
+                                <p className="wow fadeInUp">Explore UBSEC: Where Cybersecurity Innovation Thrives and Digital Fortresses Are Fortified</p>
                                 <div className="group-btn wow fadeInUp">
-                                    <Link to="/create" className="tf-button style-2 btn-1">Create Item</Link>
-                                    <Link to="/item-details-v1" className="tf-button style-3 btn-2">Sell Item</Link>
+                                    <a href="https://discord.gg/THcrbZBPAJ" className="tf-button style-2 btn-1" >Join Discord</a>
+                                    <a href="https://buffalo.campuslabs.com/engage/organization/ubsec" className="tf-button style-3 btn-2">UBLinked</a>
                                 </div>
                                 <div className="shape ani4">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="176" height="143" viewBox="0 0 176 143" fill="none">

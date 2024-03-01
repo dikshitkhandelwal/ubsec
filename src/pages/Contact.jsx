@@ -30,7 +30,7 @@ function Contact(props) {
                 <div className="row ">
                     <div className="col-md-6">
                         <div className="image ani4">
-                            <img src={img} alt="Binasea" />
+                            <img src={img} alt="UBSEC" />
                         </div>
                     </div>
                     <div className="col-md-6">

@@ -40,25 +40,20 @@ function Banner01(props) {
                                         <div className="content-inner">
                                             <h1 className="heading">
                                                 Securing Futures, Empowering Minds <span>UBSEC</span> 
-                                                <img src={img1} alt="Binasea" />  
+                                                <img src={img1} alt="UBSEC" />  
                                             </h1>
                                             <p className="sub-heading">{idx.desc}</p>
                                             <div className="btn-slider ">
                                                 <Link to="/events/spring-2024" className="tf-button style-2">Spring 24 Events</Link>
-                                                <Link to="/create" className="tf-button style-3">About UBSEC</Link>
+                                                <Link to="/about-us" className="tf-button style-3">About UBSEC</Link>
                                             </div>
                                         </div>
                                         <div className="image">
-                                            <div className="img-slider-main ani5"><img src={idx.img} alt="Binasea"/></div>
-                                            <img src={img2} alt="Binasea" className="img-slider-2 ani4" />
-                                            <img src={img2} alt="Binasea" className="img-slider-3 ani5" />
-                                            
-                                            <div className="current-bid ">
-                                                <div className="title">Current bid</div>
-                                                <div className="price">{idx.price}</div>
-                                            </div>
+                                            <div className="img-slider-main ani5"><img src={idx.img} alt="UBSEC"/></div>
+                                            <img src={img2} alt="UBSEC" className="img-slider-2 ani4" />
+                                            <img src={img2} alt="UBSEC" className="img-slider-3 ani5" />
                                             <div className="card-infor ani5">
-                                                <img src={idx.avt} alt="Binasea" />
+                                                <img src={idx.avt} alt="UBSEC" />
                                                 <div className="inner ">
                                                     <h6 className="name">{idx.name}</h6>
                                                     <p className="author">{idx.tag}</p>
