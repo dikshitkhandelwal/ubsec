@@ -1,7 +1,7 @@
 import React from 'react';
-import img1 from '../../assets/images/banner/img-banner1.jpg'
-import img2 from '../../assets/images/banner/img-banner2.jpg'
-import img3 from '../../assets/images/banner/img-banner3.jpg'
+import img1 from '../../assets/images/banner/carer.jpg'
+import img2 from '../../assets/images/banner/wifi.jpg'
+// import img3 from '../../assets/images/banner/logo-244x237.jpg'
 
 Create5.propTypes = {
     
@@ -70,9 +70,9 @@ function Create5(props) {
                                 <div className="thumb-2 ani4">
                                     <img src={img2} alt="images" />
                                 </div>
-                                <div className="thumb-3 ani5">
+                                {/* <div className="thumb-3 ani5">
                                     <img src={img3} alt="images" />
-                                </div>
+                                </div> */}
                                 <div className="shape ani3">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="825" height="559" viewBox="0 0 825 559" fill="none">
                                         <g opacity="0.6" filter="url(#filter0_f_1_5)">
