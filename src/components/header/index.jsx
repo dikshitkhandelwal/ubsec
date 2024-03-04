@@ -4,8 +4,8 @@ import { Link , NavLink } from 'react-router-dom';
 import menus from '../../pages/menu';
 
 import './styles.scss';
-import logo from '../../assets/images/logo/logo.png';
-import logodark from '../../assets/images/logo/logo_dark.png';
+import logo from '../../assets/images/logo/Full_Logo.png';
+import logodark from '../../assets/images/logo/Full_Logo.png';
 
 import DarkMode from './DarkMode';
 

@@ -46,6 +46,11 @@ function Footer(props) {
                                     <img id="logo_footer" className='logo-light' src={logo} alt="Binasea" />
                                 </div> */}
                                 <p className="content">UBSEC is a platform for students to explore the field of cybersecurity, foster a community around technology and security.</p>
+                                <ul className="social-item">
+                                    <li><Link to="#"><i className="fab fa-discord"></i></Link></li>
+                                </ul>
+                                <p className="copy-right">Copyright © 2024 UBSEC. All Rights Reserved.
+                                </p>
                             </div>
                         </div>
                         <div className="col-xl-5 col-lg-6 col-md-5">
@@ -78,10 +83,12 @@ function Footer(props) {
                             <div className="widget widget-subcribe">
                                 <h6 className="widget-title">Email for queries</h6>
                                 <p className="content">ubsec-club@buffalo.edu</p>
+                                {/* <form action="#" id="subscribe-form">
+                                    <input type="email" placeholder="Info@yourgmail.com" required="" id="subscribe-email" />
+                                    <button className="tf-button" type="submit" id="subscribe-button"><i className="icon-fl-send"></i></button>
+                                </form> */}
                             </div>
                         </div>
-
-                        <p className="copy-right">Copyright © 2024 UBSEC. All Rights Reserved.</p>
                     </div>
                 </div>
 
