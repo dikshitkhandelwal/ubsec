@@ -75,6 +75,13 @@ const menus = [
         name: 'About Us',
         links: '/about-us',
     },
+    {
+        id: 8,
+        name: 'HackFest Registration',
+        links: '#',
+        // external: true
+
+    },
 ]
 
 export default menus;
