@@ -19,7 +19,7 @@ function PageTitle(props) {
 
                             <ul className="breadcrumbs">
                                 <li><Link to="/">Home</Link></li>
-                                <li className={none}><Link to="/explore-v1">{sub}</Link></li>
+                                <li className={none}><Link to="#">{sub}</Link></li>
                                 <li>{title}</li>
                             </ul>
 
