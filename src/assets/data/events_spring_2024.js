@@ -30,7 +30,7 @@ const events_spring_2024 = [
         title: 'CyberPortfolio',
         time: '6:00 PM - 7:30 PM',
         date: '13th March 2024',
-        location: 'Knox 20',
+        location: 'Knox 109',
 
     },
     {
