@@ -46,9 +46,9 @@ function Footer(props) {
                                     <img id="logo_footer" className='logo-light' src={logo} alt="Binasea" />
                                 </div> */}
                                 <p className="content">UBSEC is a platform for students to explore the field of cybersecurity, foster a community around technology and security.</p>
-                                <ul className="social-item">
+                                {/* <ul className="social-item">
                                     <li><Link to="#"><i className="fab fa-discord"></i></Link></li>
-                                </ul>
+                                </ul> */}
                                 <p className="copy-right">Copyright © 2024 UBSEC. All Rights Reserved.
                                 </p>
                             </div>
