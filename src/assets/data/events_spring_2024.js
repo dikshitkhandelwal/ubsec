@@ -46,9 +46,9 @@ const events_spring_2024 = [
         id: 5,
         img: img5,
         title: 'UBSEC HackFest Spring 2024',
-        time: 'Coming soon!',
-        date: 'Coming Soon!',
-        location: 'Coming Soon!',
+        time: '10am - 5pm!',
+        date: '21st April 2024',
+        location: 'Knox 110!',
 
     }
 ]

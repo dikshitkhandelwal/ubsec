@@ -43,7 +43,7 @@ function Banner05(props) {
                                                 <img src={img3} alt="UBSEC" class="img-star star-3 ani4" />
                                                 <img src={img4} alt="UBSEC" class="img-star star-4 ani5" />
                                                 <h2 class="heading">
-                                                    Securing Futures, Empowering Minds <span>UBSEC</span>  
+                                                    Securing Futures, Empowering Minds  
                                                 </h2>
                                                 <p class="sub-heading">{idx.desc}</p>
                                                 <div class="btn-slider ">
