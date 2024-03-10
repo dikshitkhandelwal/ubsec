@@ -47,7 +47,7 @@ function Banner05(props) {
                                                 </h2>
                                                 <p class="sub-heading">{idx.desc}</p>
                                                 <div class="btn-slider ">
-                                                    <Link to="/events/spring-2024" class="tf-button">Spring 24 Events</Link>
+                                                    <Link to="#" class="tf-button">HackFest Registration (Coming Soon)</Link>
                                                     <Link to="/about-us" class="tf-button style-2">About UBSEC</Link>
                                                 </div>
                                             </div>
