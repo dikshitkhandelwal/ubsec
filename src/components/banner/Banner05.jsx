@@ -47,7 +47,7 @@ function Banner05(props) {
                                                 </h2>
                                                 <p class="sub-heading">{idx.desc}</p>
                                                 <div class="btn-slider ">
-                                                    <a href="https://forms.office.com/r/DGSySv3z5h" className="tf-button">HackFest Registration (Coming Soon)</a>
+                                                    <a href="https://forms.office.com/r/DGSySv3z5h" className="tf-button">HackFest Registration</a>
                                                     <Link to="/about-us" class="tf-button style-2">About UBSEC</Link>
                                                 </div>
                                             </div>
