@@ -75,13 +75,13 @@ const menus = [
         name: 'About Us',
         links: '/about-us',
     },
-    // {
-    //     id: 8,
-    //     name: 'HackFest Registration',
-    //     links: 'https://forms.gle/5e2kMiFhgdX3x5bq6',
-    //     external: true
+    {
+        id: 8,
+        name: 'HackFest Registration',
+        links: 'https://forms.office.com/r/DGSySv3z5h',
+        external: true
 
-    // },
+    },
 ]
 
 export default menus;

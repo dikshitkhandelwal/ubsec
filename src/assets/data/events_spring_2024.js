@@ -4,7 +4,7 @@ import img1 from '../images/product/UBSEC.jpg'
 import img2 from '../images/product/WIFI.png'
 import img3 from '../images/product/CyberPortfolio.png'
 import img4 from '../images/product/product34.jpg'
-import img5 from '../images/product/product35.jpg'
+import img5 from '../images/banner/HackFest.png'
 const events_spring_2024 = [
     {
         id: 1,
