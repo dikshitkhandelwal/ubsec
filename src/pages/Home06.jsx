@@ -19,5 +19,4 @@ function Home06(props) {
         </div>
     );
 }
-
 export default Home06;
